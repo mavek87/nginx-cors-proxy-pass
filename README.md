@@ -40,3 +40,4 @@ NGINX_PROXY_PORT="<NGINX_PROXY_PORT>"
 - https://gist.github.com/iki/1247cd182acd1aa3ee4876acb7263def
 - https://gist.github.com/Stanback/7145487
 - https://github.com/maximillianfx/docker-nginx-cors
+- https://bobcares.com/blog/nginx-proxy-to-avoid-cors/
