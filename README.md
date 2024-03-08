@@ -19,8 +19,12 @@ Alternatively, deploying a Nginx server as a reverse proxy using a Docker contai
 ### 1) Edit the params in the .env file like you prefer:
 
 ```dotenv
-BACKEND_URL="<YOUR_BACKEND_HOST>:<YOUR_BACKEND_PORT>"
-NGINX_PROXY_PORT="<NGINX_PROXY_PORT>"
+# Leave this host if you want to work with the machine who is hosting docker
+BACKEND_HOST="host.docker.internal"
+# This is the port used by the backend server. In this example the port is 8080
+BACKEND_PORT="8080"
+# This is the port used by the nginx cors proxy server. In this example the port is 5555
+NGINX_PROXY_PORT="5555"
 ```
 
 ### 2) Start Nginx cors proxy:
