@@ -27,13 +27,13 @@ BACKEND_PORT="8080"
 NGINX_PROXY_PORT="5555"
 ```
 
-### 2) Start Nginx cors proxy:
+### 2) Start the Nginx CORS proxy server:
 
 ```bash
 ./manage-nginx-cors-proxy.sh start
 ```
 
-### 3) Stop Nginx cors proxy:
+### 3) Stop the Nginx CORS proxy server:
 
 ```bash
 ./manage-nginx-cors-proxy.sh stop
