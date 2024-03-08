@@ -16,7 +16,7 @@ Alternatively, deploying a Nginx server as a reverse proxy using a Docker contai
 
 ## Usage
 
-### 1) Edit the params in the .env file like you prefer:
+### 1) Edit the params in the .env file:
 
 ```dotenv
 # Leave this host if you want to work with the machine who is hosting docker
